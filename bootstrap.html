@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio de Streaming</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/botstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Crunchyroll</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Animes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ovas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mi Lista</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Carrousel -->
+    <main>
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Black Clover.jpg" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Black Clover</h5>
+                        <p>"Black Clover" sigue la historia de Asta, un joven huérfano nacido sin poderes mágicos en un mundo donde la magia lo es todo. A pesar de este obstáculo, Asta sueña con convertirse en el Rey Mago, el líder más poderoso de su reino. Con la ayuda de un raro grimorio de antimagia y su inquebrantable determinación, Asta se enfrenta a desafíos sobrenaturales y enemigos formidables para alcanzar su meta</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Naruto.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Naruto Shippuden</h5>
+                        <p>"Naruto Shippuden" es la secuela de la serie original "Naruto" y sigue la historia de Naruto Uzumaki después de un salto temporal de dos años y medio. Naruto regresa a la Aldea Oculta de la Hoja, más fuerte y maduro, con la misión de rescatar a su amigo Sasuke Uchiha, quien se ha unido al peligroso Orochimaru. La serie se centra en las batallas contra la organización criminal Akatsuki, que busca capturar a las bestias con colas, incluyendo al zorro de nueve colas dentro de Naruto. A lo largo de la serie, se revelan más detalles sobre los personajes, sus motivaciones y los oscuros secretos del mundo ninja.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Death Note.jpg" class="d-block w-100" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Death Note</h5>
+                        <p>"Death Note" cuenta la historia de Light Yagami, un brillante estudiante que encuentra un cuaderno con el poder de matar a cualquier persona cuyo nombre sea escrito en él. Con este poder en sus manos, Light se propone eliminar a los criminales del mundo y convertirse en una deidad. Sin embargo, sus acciones atraen la atención de L, un misterioso y brillante detective que busca detenerlo. La serie es un intenso juego de ingenio y moralidad entre Light y L.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    <!-- Sección de Series Populares -->
+        <section class="container my-5">
+            <h2 class="mb-4">Series Populares</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/JJK.jpg" class="card-img-top" alt="Serie 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Jujutsu Kaisen</h5>
+                            <p class="card-text">sigue la historia de Yuji Itadori, un estudiante de secundaria con una fuerza física increíble, que se ve envuelto en el mundo del jujutsu, la práctica de la exorcización de maldiciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/Rokudenashi.jpg" class="card-img-top" alt="Serie 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Rokudenashi Majutsu Koushi to Akashic Records</h5>
+                            <p class="card-text">sigue a Sistine Fibel, una estudiante de la Academia de Magia de la Alzano Empire, y su nueva instructor de magia, Glenn Radars.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/Attack On Titan.jpg" class="card-img-top" alt="Serie 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Shingeki no Kyojin</h5>
+                            <p class="card-text">se desarrolla en un mundo donde la humanidad vive rodeada por enormes muros para protegerse de los titanes, gigantes humanoides que devoran personas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/Demon Slayer.jpg" class="card-img-top" alt="Serie 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Kimetsu no yaiba</h5>
+                            <p class="card-text">sigue la historia de Tanjiro Kamado, un joven amable y trabajador que vive en las montañas con su familia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Crunchyroll. Todos los derechos reservados.</p>
+            <p>
+                <a href="#" class="text-white me-3">Términos de servicio</a>
+                <a href="#" class="text-white">Política de privacidad</a>
+            </p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
